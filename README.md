@@ -1,5 +1,5 @@
 # 藏文翻译
-将简体中文翻译成，使用西藏大学提供的翻译支持：[阳光臧汉双向翻译](http://mt.utibet.edu.cn/mt) 
+将简体中文翻译成藏文，使用西藏大学提供的翻译支持：[阳光臧汉双向翻译](http://mt.utibet.edu.cn/mt) 
 支持翻译单个词，或者 Android strings.xml 资源文件
 
 # 使用方法
