@@ -68,8 +68,7 @@ def translate_xml_file(in_file, tag, translate_func, out_file = None):
   for elem in tree.iter(tag=tag):
     translate_xml_node(elem, translate_func)
 
-  with open(out_file, 'w', encoding='utf-8') as out:
-    tree.write(out_file, xml_declaration=True, encoding='utf-8')
+  tree.write(out_file, xml_declaration=True, encoding='utf-8')
 
 #init_log()
 logging.basicConfig(level=logging.ERROR)
